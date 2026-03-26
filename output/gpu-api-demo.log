@@ -1,0 +1,28 @@
+[{"stream_name":"stdout","time":0.971398038,"data":"Checking for GPU...\n"}
+,{"stream_name":"stdout","time":1.007427673,"data":"Thu Mar 26 16:15:24 2026       \n"}
+,{"stream_name":"stdout","time":1.007901136,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":1.007935383,"data":"| NVIDIA-SMI 580.105.08             Driver Version: 580.105.08     CUDA Version: 13.0     |\n"}
+,{"stream_name":"stdout","time":1.007940705,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":1.007945069,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n"}
+,{"stream_name":"stdout","time":1.007949281,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n"}
+,{"stream_name":"stdout","time":1.007954157,"data":"|                                         |                        |               MIG M. |\n"}
+,{"stream_name":"stdout","time":1.00795901,"data":"|=========================================+========================+======================|\n"}
+,{"stream_name":"stdout","time":1.05396177,"data":"|   0  Tesla P100-PCIE-16GB           Off |   00000000:00:04.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":1.054010621,"data":"| N/A   35C    P0             26W /  250W |       0MiB /  16384MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":1.054017182,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":1.054022114,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":1.054026835,"data":"\n"}
+,{"stream_name":"stdout","time":1.054031188,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":1.0540362110000001,"data":"| Processes:                                                                              |\n"}
+,{"stream_name":"stdout","time":1.054040866,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n"}
+,{"stream_name":"stdout","time":1.054045443,"data":"|        ID   ID                                                               Usage      |\n"}
+,{"stream_name":"stdout","time":1.054050335,"data":"|=========================================================================================|\n"}
+,{"stream_name":"stdout","time":1.054055045,"data":"|  No running processes found                                                             |\n"}
+,{"stream_name":"stdout","time":1.05405967,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stderr","time":3.547227196,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3.54727543,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3.904470542,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3.9044994539999998,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":5.4138752740000005,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":6.812163915,"data":"[NbConvertApp] Writing 273189 bytes to __results__.html\n"}
+]
