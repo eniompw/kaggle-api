@@ -22,7 +22,7 @@ This is a minimal demonstration of using the Kaggle Python API to run GPU worklo
     **Option 1 (Environment Variables)**:
     ```bash
     export KAGGLE_USERNAME="your_kaggle_username"
-    export KAGGLE_KEY="your_kaggle_key"
+    export KAGGLE_API_TOKEN="your_kaggle_key"
     ```
 
     **Option 2 (JSON Config)**:
@@ -43,8 +43,8 @@ Then use the Kaggle CLI to push, monitor, and pull the outputs of your kernel:
 kaggle kernels push -p ./
 
 # Check run status
-kaggle kernels status your-username/my-gpu-kernel
+kaggle kernels status eniompw/gpu-api-demo
 
 # Pull output/logs when done
-kaggle kernels output your-username/my-gpu-kernel -p ./output
+kaggle kernels output eniompw/gpu-api-demo -p ./output
 ```
